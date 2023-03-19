@@ -13,10 +13,10 @@ let mendata;
 let data;
 let Nike;
 
-sneaks.getMostPopular(10, function(err, products){
-   mendata = products;
-   console.log('***********************************');
-});
+// sneaks.getMostPopular(10, function(err, products){
+//    mendata = products;
+//    console.log('***********************************');
+// });
 
 // sneaks.getProducts('Nike', 20, function (err, products) {
 //   // console.log(products);
