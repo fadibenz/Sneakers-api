@@ -24,10 +24,15 @@ sneaks.getMostPopular(10, function(err, products){
 // });
 
 
+
 sneaks.getProducts('New Balance', 18, function (err, products) {
   // console.log(products);
    data = products.concat(mendata)
    console.log(data)
+});
+
+app.get("/:universalURL", (req, res) => {
+    res.send("404 URL NOT FOUND");
 });
 
 app.get('/men', (req, res) => {
